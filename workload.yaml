@@ -14,7 +14,7 @@ dependencies:
     - ref: ndoclet-nats
       envBindings:                 
         url: DOCLET_NATS_URL
-    - ref: ndocklet-postgres-terraform
+    - ref: ndoclet-postgres-terraform
       envBindings:
         host: DB_HOST
         port: DB_PORT
