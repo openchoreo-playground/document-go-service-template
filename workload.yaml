@@ -16,8 +16,5 @@ dependencies:
         url: DOCLET_NATS_URL
     - ref: ndoclet-postgres-terraform
       envBindings:
-        host: DB_HOST
-        port: DB_PORT
-        username: DB_USER
-        password: DB_PASSWORD
-        database: DB_NAME
+        url: DOCLET_DATABASE_URL
+        
